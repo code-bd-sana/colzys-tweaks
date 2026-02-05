@@ -17,7 +17,7 @@ body {
   }
 
   .text-highlight {
-    @apply bg-gradient-to-r from-[#00E9E7] to-[#00F9A1] bg-clip-text text-transparent text-5xl font-bold;
+    @apply bg-gradient-to-r from-[#00E9E7] to-[#00F9A1] bg-clip-text text-transparent text-3xl md:text-5xl font-bold;
   }
 
   .text-bold {
@@ -27,9 +27,12 @@ body {
     @apply text-[16px] text-white;
   }
   .text-gray {
-    @apply text-[#a4c7d6];
+    @apply text-sm md:text-[16px] text-[#a4c7d6];
   }
   .logo {
     @apply text-[#00E5F1] font-semibold text-nowrap md:text-xl;
+  }
+  .bg-secondary {
+    @apply bg-[#0F1B24];
   }
 }
