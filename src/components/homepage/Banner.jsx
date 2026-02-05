@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Banner = () => {
   return (
     <div className='bg-secondary px-6 md:px-12 py-24 '>
@@ -12,8 +14,12 @@ const Banner = () => {
         {/* button */}
 
         <div className='flex justify-center gap-2'>
-          <button className='btn-primary'>See Pricing</button>
-          <button className='btn-secondary'>What you get</button>
+          <Link href={"#price"} className='btn-primary'>
+            See Pricing
+          </Link>
+          <Link href={"#feature"} className='btn-secondary'>
+            What you get
+          </Link>
         </div>
       </div>
     </div>

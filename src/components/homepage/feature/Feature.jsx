@@ -32,7 +32,7 @@ const Feature = () => {
     },
   ];
   return (
-    <div className='py-6 px-6'>
+    <div id="feature" className='py-6 px-6'>
       <h1 className='text-bold  text-3xl'>What We Tweak</h1>
 
       <div className='lg:flex space-y-8 justify-center gap-8 mt-8 '>

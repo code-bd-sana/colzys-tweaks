@@ -1,3 +1,4 @@
+import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -22,8 +23,11 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar />
-        {children}
+        <div className='max-w-7xl mx-auto'>
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );

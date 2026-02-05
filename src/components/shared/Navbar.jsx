@@ -10,7 +10,7 @@ const Navbar = () => {
         <p className='text-primary hidden md:block'>
           Services Pricing My Socials{" "}
         </p>
-        <Link href={"/"} className='btn-primary'>
+        <Link href={"#price"} className='btn-primary'>
           Buy
         </Link>
       </section>
