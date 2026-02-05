@@ -1,16 +1,19 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
-    <div>
-      <button className='btn-secondary'>What you get</button>
-      <p className='text-highlight'>Game Faster. Run Smoother.</p>
-      <h1 className='text-bold'>Full Optimization</h1>
-      <p className='text-primary'>
-        Full system debloat focused on maximum performance
-      </p>
-      <p className='text-gray'>
-        Decrease latency. Increase FPS. Lower ping. Clean, safe tweaks for
-        competitive gaming.
-      </p>
+    <div className='flex p-4 border border-b-gray-800 items-center justify-between'>
+      <section>
+        <h4 className='logo'>⚡ Colzys Tweaks</h4>
+      </section>
+      <section className='flex items-center gap-4'>
+        <p className='text-primary hidden md:block'>
+          Services Pricing My Socials{" "}
+        </p>
+        <Link href={"/"} className='btn-primary'>
+          Buy
+        </Link>
+      </section>
     </div>
   );
 };

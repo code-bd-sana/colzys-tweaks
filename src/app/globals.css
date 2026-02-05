@@ -29,4 +29,7 @@ body {
   .text-gray {
     @apply text-[#a4c7d6];
   }
+  .logo {
+    @apply text-[#00E5F1] font-semibold text-nowrap md:text-xl;
+  }
 }
