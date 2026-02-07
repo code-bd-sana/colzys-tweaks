@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@intercom/messenger-js-sdk": "^0.0.18",
+    "@paypal/checkout-server-sdk": "^1.0.3",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",

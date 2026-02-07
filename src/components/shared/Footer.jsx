@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaDiscord, FaTiktok, FaYoutube } from "react-icons/fa";
 import { SiHiveBlockchain } from "react-icons/si";
 
@@ -57,6 +58,11 @@ const Footer = () => {
               <span className='text-xl'>{social.icon}</span>
             </a>
           ))}
+        </div>
+        <div className='flex justify-center gap-6 mt-4'>
+          <Link href='/privacy-policy' className='text-[#00E9E7] text-sm'>
+            Privacy Policy
+          </Link>
         </div>
         <p className='text-gray-400 text-sm mt-2'>© 2026 Colzys Tweaks</p>
       </div>
