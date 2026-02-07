@@ -25,14 +25,14 @@ const Feature = () => {
       item: [
         "Full system debloat focused on maximum performance",
         "Optimized power plan for peak efficiency and stability",
-        "NHighly effective GPU & CPU performance tuning",
+        "Highly effective GPU & CPU performance tuning",
         "Per‑game profiles built for competitive FPS",
         "Network optimization for lower latency and faster speeds",
       ],
     },
   ];
   return (
-    <div id="feature" className='py-6 px-6'>
+    <div id='feature' className='py-6 px-6'>
       <h1 className='text-bold  text-3xl'>What We Tweak</h1>
 
       <div className='lg:flex space-y-8 justify-center gap-8 mt-8 '>
