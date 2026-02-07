@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PricingCard = ({ pricing }) => {
   return (
     <div
@@ -38,9 +40,10 @@ const PricingCard = ({ pricing }) => {
       </ul>
 
       {/* Button */}
-      <a href={pricing.buttonLink} className='btn-primary text-center'>
+
+      <Link href={pricing.buttonLink} className='btn-primary text-center'>
         {pricing.buttonText}
-      </a>
+      </Link>
     </div>
   );
 };

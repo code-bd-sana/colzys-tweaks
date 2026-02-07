@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 
 const packs = [
   { name: "Extreme Pack", price: 30 },
-  { name: "Basic Pack", price: 20 },
-  { name: "Pro Pack", price: 50 },
+  { name: "Basic Pack", price: 10 },
+  { name: "Pro Pack", price: 40 },
 ];
 
 const CheckOutPage = () => {

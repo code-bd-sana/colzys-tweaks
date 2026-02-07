@@ -12,8 +12,8 @@ const Pricing = () => {
         "Keyboard & mouse tweaks for steady input",
         "Driver sanity + Windows gaming defaults",
       ],
-      buttonText: "Buy Basic",
-      buttonLink: "/",
+      buttonText: "Basic Pack",
+      buttonLink: "/checkout/?pack=Basic Pack",
     },
     {
       name: "Extreme Pack",
@@ -26,7 +26,7 @@ const Pricing = () => {
         "Scheduler & timer tweaks for input consistency",
       ],
       buttonText: "Buy Extreme",
-      buttonLink: "/",
+      buttonLink: "/checkout/?pack=Extreme Pack",
     },
     {
       name: "Full Optimization",
@@ -39,7 +39,7 @@ const Pricing = () => {
         "Network optimization for lower latency and faster speeds",
       ],
       buttonText: "Buy Full",
-      buttonLink: "/",
+      buttonLink: "/checkout/?pack=Pro Pack",
       discount: "28% OFF",
     },
   ];

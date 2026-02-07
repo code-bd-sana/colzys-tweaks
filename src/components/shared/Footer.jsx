@@ -10,7 +10,7 @@ const socialLinks = [
   },
   {
     icon: <FaTiktok />,
-    href: "#",
+    href: "https://www.tiktok.com/@colxero0?_r=1&_t=ZP-93iIGS1uykx",
     bg: "bg-gray-800 hover:bg-gray-700",
   },
   {
@@ -20,7 +20,7 @@ const socialLinks = [
   },
   {
     icon: <FaDiscord />,
-    href: "#",
+    href: "https://discord.gg/eSGQHBwFpR",
     bg: "bg-gray-800 hover:bg-gray-700",
   },
 ];
