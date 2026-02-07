@@ -5,3 +5,4 @@ const CheckOutPage = () => {
 };
 
 export default CheckOutPage;
+//this is ceckout form
