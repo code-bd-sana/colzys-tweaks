@@ -191,7 +191,7 @@ export async function PUT(request) {
 
             <p style="color:#6faabf; font-size:13px; margin-top:25px; text-align:center; border-top:1px solid #2a3a4a; padding-top:15px;">
               This link is token‑protected and monitored.<br/>
-              © 2024 Gaming Service. All rights reserved.
+              © 2026 Colzys Tweaks
             </p>
           </div>
         </div>

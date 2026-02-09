@@ -572,9 +572,9 @@ const CheckOutPageComponent = () => {
                   className='w-full px-3 py-2 md:px-4 md:py-2.5 rounded-md bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-1 focus:ring-cyan-400 text-sm md:text-base'>
                   <option value=''>Select Region *</option>
                   <option value='US'>USA</option>
-                  <option value='EU'>Europe</option>
-                  <option value='AS'>Asia</option>
-                  <option value='OT'>Other</option>
+                  <option value='US'>Europe</option>
+                  <option value='US'>Asia</option>
+                  <option value='US'>Other</option>
                 </select>
 
                 {/* Desktop Pack Selector - Hidden on Mobile */}
