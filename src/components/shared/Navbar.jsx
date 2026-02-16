@@ -15,7 +15,7 @@ const Navbar = () => {
             clickHandler();
           }}
           className='logo cursor-pointer'>
-          ⚡ Colzys Tweaks
+          ⚡ Colzys Tweaksssss
         </h4>
       </section>
       <section className='flex items-center gap-4'>
