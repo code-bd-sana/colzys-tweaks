@@ -106,13 +106,13 @@ export async function PUT(request) {
 
     if (packNameLower.includes("extreme") || packNameLower.includes("pro")) {
       // Extreme Pack এবং Pro Pack - "all" link
-      downloadLink = `https://colzys-tweaks.vercel.app/file/extreme/JA4KuAc6475SMWzjojzHgrzypka4ASzKESI8JBKhf10jkvO7365TeEHqLFa5eWQK`;
+      downloadLink = `https://colzys-tweaks.com/file/extreme/JA4KuAc6475SMWzjojzHgrzypka4ASzKESI8JBKhf10jkvO7365TeEHqLFa5eWQK`;
     } else if (packNameLower.includes("basic")) {
       // Basic Pack - "basic" link
-      downloadLink = `https://colzys-tweaks.vercel.app/all/fYt6jNkMpqR3LxZvBw9Ct2SdE7gH4uQrXaP1oVbNcM8kLpJhGfD3sRwE5tYqA`;
+      downloadLink = `https://colzys-tweaks.com/file/basic/JA4KuAc6475SMWzjojzHgrzypka4ASzKESI8JBKhf10jkvO7365TeEHqLFa5eWQK`;
     } else {
       // Default fallback - all link
-      downloadLink = `https://colzys-tweaks.vercel.app/all/JA4KuAc6475SMWzjojzHgrzypka4ASzKESI8JBKhf10jkvO7365TeEHqLFa5eWQK`;
+      downloadLink = `https://colzys-tweaks.com/file/all/JA4KuAc6475SMWzjojzHgrzypka4ASzKESI8JBKhf10jkvO7365TeEHqLFa5eWQK`;
     }
 
     // Add query parameters for tracking
