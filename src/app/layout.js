@@ -13,6 +13,14 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+// app/layout.tsx
+
+export const metadata = {
+  title: "Colzys Tweaks",
+  icons: {
+    icon: "/favicon.jpg",
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
