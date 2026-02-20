@@ -3,9 +3,7 @@ import nodemailer from "nodemailer";
 import Stripe from "stripe";
 
 // Stripe secret key environment variable থেকে নিন
-const stripe = new Stripe(
-  "sk_test_51PKiIJP0aOrzI3fiewuaLvNTmTlCNqCCRWks27OS88VsRJj8b4Eklts5g7igzcUChBeaxpFCfWJBDgFwshhmwUMb00KlvIhKu0",
-);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // POST request: PaymentIntent create করতে
 export async function POST(request) {
